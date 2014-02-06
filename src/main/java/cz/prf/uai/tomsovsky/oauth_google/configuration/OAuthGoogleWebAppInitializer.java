@@ -7,7 +7,7 @@ public class OAuthGoogleWebAppInitializer extends
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return null;
+		return new Class[] { OAuthGoogleWebSecurityConfig.class };
 	}
 
 	@Override
